@@ -1,3 +1,8 @@
+/* .Intelligent-water-bodies-management-card-container{
+    margin-top: 4rem;
+    background: grey;
+} */
+
 .boxesImg {
     display: flex;
     /* flex-direction: column; */
@@ -24,12 +29,54 @@
     margin: 5px 0;
     width: 100%;
   }
+
+.cardImg {
+    width: 100%;
+}
+
+.img-bg {
+  background: linear-gradient(90deg, #d9dde8 0%, #ffffff 100%);
+}
+.header-contain{
+    background-image: url('https://bariflolabs.com/wp-content/uploads/2020/05/lance-anderson-G2SDLsJp3rg-unsplash-scaled.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+/* .boxesImg {
+    display: flex;
+    gap: 20px;
+    background-color: #e5e5e5;
+  }
+  .allImg {
+    border-radius: 50%;
+  }
+  .wrapText {
+    font-family: Jost;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .Wrap {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px 0;
+    width: 100%;
+  }
   
   .Wrap:nth-child(odd) {
     background: linear-gradient(90deg, #d9dde8 0%, #ffffff 100%);
+    display: flex;
+    flex-direction: row;
   }
   .Wrap:nth-child(even) {
-    background: linear-gradient(90deg, #d9dde8 0%, #ffffff 100%);
+    background: linear-gradient(90deg, #ffffff 0%, #d9dde8 100%);
+    display: flex;
+    flex-direction: row-reverse;
   }
   .firstCol,
   .thirdCol {
@@ -62,9 +109,18 @@
   .topWrap {
     flex-direction: column;
   }
-  
 
-  /* flex-direction: column; */
+  @media (max-width : 800px){
+    .Wrap{
+        grid-template-rows: 1fr;
+        display: grid;
+        border: 1px solid red;
+        justify-content: center;
+        align-items: center;
+    }
+  } */
+
+/* flex-direction: column; */
 /* .Intelligent-water-bodies-management-card-container{
     display: flex;
     flex-wrap: wrap;

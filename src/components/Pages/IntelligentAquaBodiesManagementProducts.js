@@ -13,24 +13,31 @@ function IntelligentAquaBodiesManagementProducts() {
         secondlink="/ourteam"
         thirdlink="/contactus"
       />
-      <div className="Intelligent-water-bodies-management-card-container">
-        {/* <div className="heading">
+      {/* <div className="Intelligent-water-bodies-management-card-container"> */}
+         {/* <div className="heading">
         <div className="header-contain">
           <div className="container">
             <p className="display-4 text-light">
               Intelligent Water Bodies Management Products
             </p>
           </div>
+        </div> 
         </div> */}
 
-        <div className="header-contain">
-          <div class="container">
-            <p class="display-2 my-5 text-light text-start d-flex flex-column justify-content-center">
-              Intelligent Water Bodies Management Products
-            </p>
+
+        {/* Heading */}
+
+        <div className="container-fluid header-contain">
+          <div className="row">
+            <div className="col-12">
+              <p className="display-2 text-light text-start d-flex flex-column justify-content-center">
+                Intelligent Water Bodies Management Products
+              </p>
+            </div>
           </div>
         </div>
-      </div>
+      {/* </div> */}
+
       <IntelligentWaterBodiesManagementCards
         heading="Aeration System"
         image={require("../images/aerationSystem.png").default}

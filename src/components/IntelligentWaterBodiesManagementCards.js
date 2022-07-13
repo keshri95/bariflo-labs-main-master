@@ -3,6 +3,27 @@ import React from "react";
 function IntelligentWaterBodiesManagementCards(props) {
   return (
     <div>
+      <div className="container-fluid my-1 img-bg">
+        
+        <div className="row">
+          <div className="col-12 col-md-6 p-5">
+            <ul>
+              <p className=" h4">{props.heading}</p>
+              <li>{props.firstpoint}</li>
+              <li>{props.secondpoint}</li>
+              {props.thirdpoint === "" ? " " : <li>{props.thirdpoint}</li>}
+              {props.fourthpoint === "" ? " " : <li>{props.fourthpoint}</li>}
+
+              {props.fifthpoint === "" ? " " : <li>{props.fifthpoint}</li>}
+
+              {props.sixthpoint === "" ? " " : <li>{props.sixthpoint}</li>}
+            </ul>
+          </div>
+          <div className="col-12 col-md-6 text-center">
+            <img className="cardImg" src={props.image} alt="random" />
+          </div>
+        </div>
+      </div>
       {/* <div class="boxesImg">
       <div class="firstCol">
         <div class="wrapText">
@@ -34,26 +55,32 @@ function IntelligentWaterBodiesManagementCards(props) {
         </div>
       </div>
     </div> */}
+      {/* <div className="img-bg"> */}
 
-  <div className="topWrap">
-    <div className="Wrap">
-        <div className="Data">
-          <p className="water-title">{props.heading}</p>
-          <ul class="Intelligent-water-bodies-management-products-bullet-points">
-            <li>{props.firstpoint}</li>
-            <li>{props.secondpoint}</li>
-            {props.thirdpoint === "" ? " " : <li>{props.thirdpoint}</li>}
-            {props.fourthpoint === "" ? " " : <li>{props.fourthpoint}</li>}
+      {/*   Testing
 
-            {props.fifthpoint === "" ? " " : <li>{props.fifthpoint}</li>}
+        <div className="container-fluid my-1">
+          <div className="row">
+            <div className="col-12 col-md-6 text-bg p-5">
+              <ul>
+                <p className=" h4">{props.heading}</p>
+                <li>{props.firstpoint}</li>
+                <li>{props.secondpoint}</li>
+                {props.thirdpoint === "" ? " " : <li>{props.thirdpoint}</li>}
+                {props.fourthpoint === "" ? " " : <li>{props.fourthpoint}</li>}
 
-            {props.sixthpoint === "" ? " " : <li>{props.sixthpoint}</li>}
-          </ul>
-        </div>
-        <div class="img">
-          <img className="DeviceImg" src={props.image} alt="random" />
-        </div>
-    </div>
+                {props.fifthpoint === "" ? " " : <li>{props.fifthpoint}</li>}
+
+                {props.sixthpoint === "" ? " " : <li>{props.sixthpoint}</li>}
+              </ul>
+            </div>
+            <div className="col-12 col-md-6 text-center img-bg">
+              <img className="cardImg" src={props.image} alt="random" />
+            </div>
+          </div>
+        </div> */}
+
+      {/* </div> */}
 
       {/* <div class="Wrap">
         <div class="Data">
@@ -104,7 +131,6 @@ function IntelligentWaterBodiesManagementCards(props) {
           </ul>
         </div>
       </div> */}
-    </div>
       {/* <div className="Intelligent-water-bodies-management-products-container">
         <div className="Intelligent-water-bodies-management-products-heading">
           <h1>{props.heading}</h1>
