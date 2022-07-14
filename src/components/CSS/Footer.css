@@ -78,6 +78,16 @@ color: #fff;
     list-style: none;
   }
 
+  /* social links */
+
+  @media (max-width:768px){
+    .mediumScr{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 24px 0 0 0 !important;
+    }
+  }
   .icons{
     font-weight: 400;
     font-size: 20px;

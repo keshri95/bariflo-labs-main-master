@@ -20,7 +20,7 @@ function Footer() {
             <div className="col">
               <form>
                 <input
-                  className="footer-input"
+                  className="footer-input mb-5"
                   name="email"
                   type="email"
                   placeholder="Your Email"
@@ -101,7 +101,7 @@ function Footer() {
                 </li>
               </div>
             </div>
-            <div className="col">
+            <div className="col mediumScr">
               <p className="h5 text-light">Social Media</p>
               <div className="row">
                 <div className="col footer-link">
