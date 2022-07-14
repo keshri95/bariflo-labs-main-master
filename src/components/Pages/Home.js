@@ -241,7 +241,7 @@ function Home() {
             <img src="/assets/nit.svg" alt="nit-logo" />
           </div>
           <div>
-            <img src="/assets/KIIT_logo.png" style={{width:"52%"}} alt="kiit-logo" />
+            <img src="/assets/KIIT_logo.png" style={{width:"110px"}} alt="kiit-logo" />
           </div>
           <div>
             <img src="/assets/ciba.svg" alt="ciba-logo" />

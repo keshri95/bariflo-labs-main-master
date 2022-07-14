@@ -1,5 +1,5 @@
 import React from "react";
-import "../CSS/IntelligentWaterBodiesManagementProducts.css";
+// import "../CSS/IntelligentWaterBodiesManagementProducts.css";
 import IntelligentWaterBodiesManagementCards from "../IntelligentWaterBodiesManagementCards";
 import Navbar from "../Navbar";
 function IntelligentWaterbodiesManagementProducts() {

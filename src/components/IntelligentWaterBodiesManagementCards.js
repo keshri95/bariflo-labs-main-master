@@ -4,11 +4,11 @@ function IntelligentWaterBodiesManagementCards(props) {
   return (
     <div>
       <div className="container-fluid my-1 img-bg">
-        
+
         <div className="row">
-          <div className="col-12 col-md-6 p-5">
-            <ul>
-              <p className=" h4">{props.heading}</p>
+          <div className="col-xl-8 col-lg-8 col-md-6 textData">
+            <ul className="layoutsChange lh-lg">
+              <p className="h4">{props.heading}</p>
               <li>{props.firstpoint}</li>
               <li>{props.secondpoint}</li>
               {props.thirdpoint === "" ? " " : <li>{props.thirdpoint}</li>}
@@ -19,7 +19,7 @@ function IntelligentWaterBodiesManagementCards(props) {
               {props.sixthpoint === "" ? " " : <li>{props.sixthpoint}</li>}
             </ul>
           </div>
-          <div className="col-12 col-md-6 text-center">
+          <div className="col-xl-4 col-lg-4 col-md-6">
             <img className="cardImg" src={props.image} alt="random" />
           </div>
         </div>

@@ -29,7 +29,14 @@
     margin: 5px 0;
     width: 100%;
   }
-
+.textData{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.layoutsChange{
+  list-style: none;
+}
 .cardImg {
     width: 100%;
 }
