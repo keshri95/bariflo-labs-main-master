@@ -356,8 +356,10 @@
     font-size: 1rem;
   }
   .paragraph {
-    font-size: 0.4rem;
-    line-height: 10px;
+    /* font-size: 0.6rem;
+    line-height: 10px; */
+    font-size: 0.7rem;
+    line-height: 13px;
   }
   .about_video > iframe {
     /* width: 250px; */
@@ -405,10 +407,21 @@
   }
 }
 
+@media (max-width: 425px){
+  .paragraph {
+    font-size: 1rem;
+    line-height: 18px;
+  }
+  .mobileLg{
+    padding: 0 1.7rem !important;
+  }
+}
+
 @media (max-width: 400px) {
   .support_heading > h1 {
     font-size: 1.5rem;
   }
+  
   .support_paragraph > p {
     font-size: 0.6rem;
   }
@@ -418,6 +431,11 @@
   .support_images > img {
     height: auto;
     width: 100;
+  }
+
+  .paragraph {
+    font-size: 0.7rem;
+    line-height: 13px;
   }
   .paragraph_div {
     width: 100%;

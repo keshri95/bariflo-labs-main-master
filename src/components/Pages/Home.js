@@ -103,15 +103,15 @@ function Home() {
       <Cards />
 
       <div className="callout-banner py-5">
-        <div className="container">
+        <div className="container container-sm container-md container-lg mobileLg">
           <div className="col">
             <div className="row">
-              <p className="h2 text-light">
+              <p className="fs-3 text-light">
                 Provide solutions for the realiable growth
               </p>
             </div>
             <div className="row">
-              <p className="text-light text-justify paragraph">
+              <p className="fs-6 text-start text-light">
                 Bariflo Labs is an industry 4.0 compliant startup has developed
                 water body management system based on Fluid dynamics, IOT,
                 robotics, AI for aqua-farm management, urban water-body
@@ -241,7 +241,11 @@ function Home() {
             <img src="/assets/nit.svg" alt="nit-logo" />
           </div>
           <div>
-            <img src="/assets/KIIT_logo.png" style={{width:"110px"}} alt="kiit-logo" />
+            <img
+              src="/assets/KIIT_logo.png"
+              style={{ width: "172px" }}
+              alt="kiit-logo"
+            />
           </div>
           <div>
             <img src="/assets/ciba.svg" alt="ciba-logo" />
@@ -313,4 +317,39 @@ const SupportImages = styled.div`
   justify-contents: center;
   gap: 10px;
   justify-items: center;
+
+  @media (max-width: 768px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-contents: center;
+    gap: 5px;
+    justify-items: center;
+  }
+
+  @media (max-width: 992px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-contents: center;
+    gap: 5px;
+    justify-items: center;
+  }
+  @media (max-width: 576px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-contents: center;
+    gap: 5px;
+    justify-items: center;
+  }
+
+  @media (max-width: 320px) {
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    justify-contents: center;
+    gap: 5px;
+    justify-items: center;
+  }
 `;

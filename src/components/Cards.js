@@ -6,7 +6,7 @@ function Cards() {
   return (
     <>
 
-    <div class="container Stroy">
+    <div class="container container-sm container-md Stroy">
       <div class="col col-4">
         <div class="col">
           <div className="parent">
