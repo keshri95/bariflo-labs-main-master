@@ -1,8 +1,13 @@
 import React from "react";
+import IntelligentAquaBodiesImageContainers from "./Pages/IntelligentAquaBodiesImageContainers";
+import './CSS/IntelligentAquaBodiesImageContainers.css';
 
 function IntelligentWaterBodiesManagementCards(props) {
   return (
     <div>
+      <div>
+        <IntelligentAquaBodiesImageContainers />
+      </div>
       <div className="container-fluid my-1 img-bg">
 
         <div className="row">

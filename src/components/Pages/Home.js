@@ -227,14 +227,55 @@ function Home() {
             <p>Our project are supported by startup Odhisha</p>
           </div>
         </div>
-        <SupportImages>
+        {/* <SupportImages> */}
           {/* {suppoetImages.map((list, index
           ) => (
             <div>
               <img key={index.id} src={`${list.toLowerCase()}.svg`} alt={list.alt}/>
             </div>
           ))} */}
-          <div>
+        <div className="container">
+          <div className="row row-cols-4">
+            <div className="col">
+            <img src="/assets/thub.svg" alt="thub-logo" />
+            </div>
+            <div className="col">
+            <img src="/assets/nit.svg" alt="nit-logo" />
+
+            </div>
+            <div className="col">
+            <img
+              src="/assets/KIIT_logo.png"
+              style={{ width: "172px" }}
+              alt="kiit-logo"
+            />
+            </div>
+            <div className="col">
+            <img src="/assets/ciba.svg" alt="ciba-logo" />
+            </div>
+            <div className="col">
+            <img src="/assets/book.svg" alt="book-logo" />
+            </div>
+            <div className="col">
+            <img src="/assets/dlabs.svg" alt="dlabs-logo" />
+            </div>
+            <div className="col">
+            <img src="/assets/six.svg" alt="six-logo" />
+            </div>
+            <div className="col">
+            <img src="/assets/vit.svg" alt="vit-logo" />
+            </div>
+          </div>
+        </div>
+
+
+            
+                
+        
+
+
+          </div>
+          {/* <div>
             <img src="/assets/thub.svg" alt="thub-logo" />
           </div>
           <div>
@@ -261,9 +302,9 @@ function Home() {
           </div>
           <div>
             <img src="/assets/vit.svg" alt="vit-logo" />
-          </div>
-        </SupportImages>
-      </div>
+          </div> */}
+        {/* </SupportImages> */}
+      {/* </div> */}
 
       {/* <div className="container">
         <div className="support_grid">
@@ -310,46 +351,46 @@ export default Home;
 //   align-items: center;
 // `;
 
-const SupportImages = styled.div`
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  align-items: center;
-  justify-contents: center;
-  gap: 10px;
-  justify-items: center;
+// const SupportImages = styled.div`
+//   display: grid;
+//   grid-template-columns: repeat(4, 1fr);
+//   align-items: center;
+//   justify-contents: center;
+//   gap: 10px;
+//   justify-items: center;
 
-  @media (max-width: 768px) {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    justify-contents: center;
-    gap: 5px;
-    justify-items: center;
-  }
+//   @media (max-width: 768px) {
+//     display: grid;
+//     grid-template-columns: repeat(2, 1fr);
+//     align-items: center;
+//     justify-contents: center;
+//     gap: 5px;
+//     justify-items: center;
+//   }
 
-  @media (max-width: 992px) {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    justify-contents: center;
-    gap: 5px;
-    justify-items: center;
-  }
-  @media (max-width: 576px) {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    justify-contents: center;
-    gap: 5px;
-    justify-items: center;
-  }
+//   @media (max-width: 992px) {
+//     display: grid;
+//     grid-template-columns: repeat(2, 1fr);
+//     align-items: center;
+//     justify-contents: center;
+//     gap: 5px;
+//     justify-items: center;
+//   }
+//   @media (max-width: 576px) {
+//     display: grid;
+//     grid-template-columns: repeat(2, 1fr);
+//     align-items: center;
+//     justify-contents: center;
+//     gap: 5px;
+//     justify-items: center;
+//   }
 
-  @media (max-width: 320px) {
-    display: grid;
-    grid-template-columns: auto;
-    align-items: center;
-    justify-contents: center;
-    gap: 5px;
-    justify-items: center;
-  }
-`;
+//   @media (max-width: 320px) {
+//     display: grid;
+//     grid-template-columns: auto;
+//     align-items: center;
+//     justify-contents: center;
+//     gap: 5px;
+//     justify-items: center;
+//   }
+// `;

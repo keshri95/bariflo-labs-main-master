@@ -32,15 +32,15 @@ function IntelligentWaterBodiesManagement() {
       />
 
         <div className="Rejuvenation-left-box">
-          <div className="container">
+          <div className="container container-sm container-md container-lg container-xl">
             <div className="col">
               <div className="col">
-                <p className="water-bodies-headings">
+                <p className="water-bodies-headings display-5">
                   What is Rejuvenation of water bodies?
                 </p>
               </div>
               <div className="col">
-                <h4 className="water-bodies-text">
+                <h4 className="water-bodies-text fs-5">
                   Rejuvenation of water bodies means a complete restoration of
                   biological functioning and biodiversity of life forms within
                   the water body. TThese indicators evaluate the rejuvenation as
@@ -134,22 +134,22 @@ function IntelligentWaterBodiesManagement() {
 
               <div className="col">
                 <div className="col">
-                  <p className="water-bodies-headings">
+                  <p className="water-bodies-headings fs-4">
                     What is Restoration of water bodies?
                   </p>
                 </div>
                 <div className="col">
-                  <h4 className="water-bodies-text">
+                  <p className="water-bodies-text fs-6">
                     The restoration of water bodies means bringing back the
                     biodiversity of the original system, that is the state of
                     the fisheries potential (past and present), and the
                     possibilities for enhancement of aesthetic qualities of the
                     natural ecosystem.
-                  </h4>
+                  </p>
                 </div>
               </div>
             </div>
-        </div>
+          </div>
 
         <div className="player-wrapper">
           <ReactPlayer className="react-player" width="100%" controls={true} url={urlEco} />

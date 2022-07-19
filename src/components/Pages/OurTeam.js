@@ -6,11 +6,9 @@ import Navbar from "../Navbar";
 import OurTeamCard from "../OurTeamCard";
 import { OurTeamCardDetails } from "../OurTeamCardDetails";
 
-function OurTeam() {
 
- 
-  
-  return (
+function OurTeam() {
+    return (
     <>
     {/* <Navbar first="HOME" second="OUR TEAM" third="CONTACT US"/> */}
     <Navbar first="HOME" second="OUR TEAM" third="CONTACT US" firstlink="/" secondlink = "/ourteam" thirdlink="/contactus"/>

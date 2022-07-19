@@ -2,6 +2,7 @@ import React from "react";
 // import "../CSS/IntelligentWaterBodiesManagementProducts.css";
 import IntelligentWaterBodiesManagementCards from "../IntelligentWaterBodiesManagementCards";
 import Navbar from "../Navbar";
+import IntelligentAquaBodiesImageContainers from "./IntelligentAquaBodiesImageContainers";
 function IntelligentWaterbodiesManagementProducts() {
   return (
     <>

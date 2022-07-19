@@ -24,7 +24,7 @@ function Footer() {
                   name="email"
                   type="email"
                   placeholder="Your Email"
-                />
+                /> 
                 <Button variant="contained" color="primary" size="large">
                   Subscribe
                 </Button>

@@ -49,6 +49,7 @@ function OurTeamCard(props) {
 
     <Grid container direction="row" spacing={4} alignItems="center" row={{ xs: 12, sm: 6, md: 4 }}>
       <Grid container item  spacing={2} xs={12} sm={6} md={4}>
+
       <Card sx={{ maxWidth: 345 }}>
         <CardMedia
           component="img"
@@ -81,8 +82,8 @@ function OurTeamCard(props) {
           </IconButton>
         </Link>
       </Card>
-    </Grid>
-    </Grid>
+    </Grid> 
+   </Grid>
 
       {/* <Card>
         <CardMedia style={{ height: "150px" }} image={image} />
