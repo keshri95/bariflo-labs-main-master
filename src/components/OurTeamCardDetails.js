@@ -7,14 +7,14 @@ export const OurTeamCardDetails = [
         id: "Mrityunjay",
         href: "https://linkedin.com/in/mrityunjay-sahu"
     },
-    // {
-    //     name: "Anudhyan Mishra",
-    //     desc : "CEO & Director",
-    //     image: require("./images/Anudhyan.jpeg").default,
-    //     para : "Anudhyan is graduated from NIT Rourkela. He has prior startup experience and worked in TATA Steel for the last 10 years. He has skills on market research and customer acquisition.",
-    //     id: "Anudhyan",
-    //     href: "https://linkedin.com/in/anudhyan-mishra-a9643725"
-    // },
+    {
+        name: "Anudhyan Mishra",
+        desc : "CEO & Director",
+        image: require("./images/Anudhyan.jpeg").default,
+        para : "Anudhyan is graduated from NIT Rourkela. He has prior startup experience and worked in TATA Steel for the last 10 years. He has skills on market research and customer acquisition.",
+        id: "Anudhyan",
+        href: "https://linkedin.com/in/anudhyan-mishra-a9643725"
+    },
     {
         name: "Supratim Dutta",
         desc : " ",

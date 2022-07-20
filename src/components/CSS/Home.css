@@ -219,6 +219,11 @@
   height: 520px;
 }
 
+.logo img {
+  width:100%;
+}
+
+
 @media (max-width: 1150px) {
   .about_row {
     flex-direction: column;

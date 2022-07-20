@@ -31,7 +31,6 @@ import Grid from "@material-ui/core/Grid";
 //   }),
 // }));
 
-
 function OurTeamCard(props) {
   const { name, desc, image, para, id, href, index } = props;
   // const [isFlipped, setIsFlipped] = useState(false);
@@ -46,97 +45,25 @@ function OurTeamCard(props) {
   // }
   return (
     <>
-
-    <Grid container direction="row" spacing={4} alignItems="center" row={{ xs: 12, sm: 6, md: 4 }}>
-      <Grid container item  spacing={2} xs={12} sm={6} md={4}>
-
-      <Card sx={{ maxWidth: 345 }}>
-        <CardMedia
-          component="img"
-          width="100%"
-          height="500px"
-          image={props.image}
-          alt="Paella dish"
-        />
-        <CardContent>
-        <Typography variant="h5" color="text.secondary">
-          {props.name}
-          </Typography>
-
-          <Typography variant="subtitle1" color="text.secondary">
-          {props.desc}
-          </Typography>
-        </CardContent>
-        
-        {/* <CardActions disableSpacing> */}      
-          <CardContent>
-            <Typography paragraph>{props.id}</Typography>
-            <Typography paragraph>
-              {props.para}
-            </Typography>
-          </CardContent>
-
-          <Link href={props.href} target="_blank">
-          <IconButton aria-label="connect to linkdein">
-            <LinkedInIcon color="primary" href={props.href} />
-          </IconButton>
-        </Link>
-      </Card>
-    </Grid> 
-   </Grid>
-
-      {/* <Card>
-        <CardMedia style={{ height: "150px" }} image={image} />
-        <CardContent>
-          <Typography variant="body2" component="p">
-            {name}
-          </Typography>
-          <Typography variant="body2" component="p">
-            {id}
-          </Typography>
-          <Typography variant="body2" component="p">
-            {desc}
-          </Typography>
-          <Typography variant="body2" component="p">
-            {name}
-          </Typography>
-          <Typography variant="body2" component="p">
-            {index}
-          </Typography>
-          <Typography variant="body2" component="p">
-            {para}
-          </Typography>
-          <Typography variant="body2" component="p">
-            {href}
-          </Typography>
-        </CardContent>
-        <CardActions>
-          <Button size="small">BUY NOW</Button>
-        </CardActions>
-      </Card> */}
-
       {/* <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal"> */}
       {/* front card */}
 
       {/* Bootstrap card */}
-      {/* <div className="card" id={props.id}>
-          <img src={props.image} className="card-img-top card__img" alt="photo" />
-          <div className="card-body">
-            <h5 className="card-title">{props.name}</h5>
-            <h5 className="card-title">{props.desc}</h5>
-            <p className="card-text">
-             {props.para}
-            </p>
-          </div>
-          <div className="card-body">
-            <a href={props.href} target="_blank" rel="noreferrer">
-              <i
-                className="fa fa-linkedin my_linkedin_logo"
-                aria-hidden="true"
-              />
-            </a>
-          </div>
-        </div> */}
+      <div className="card" id={props.id}>
+        <img src={props.image} alt="photo" />
+        <div className="card-body">
+          <h5 className="card-title">{props.name}</h5>
+          <h6 class="card-subtitle mb-2 text-muted">{props.desc}</h6>
+          {/* <h5 className="card-title">{props.desc}</h5> */}
+            <p className="card-text">{props.para}</p>
+        </div>
+        {/* <div className="card-body"> */}
+        <div class="card-footer bg-transparent">
+          <a href={props.href} target="_blank" rel="noreferrer">
+            <i className="fa fa-linkedin my_linkedin_logo" aria-hidden="true" />
+          </a>
+        </div>
+      </div>
 
       {/* <div classNameName="our_team_card" id={props.id}>
           <div classNameName="our_team_content">

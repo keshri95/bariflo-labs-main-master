@@ -218,64 +218,66 @@ function Home() {
         </div>
       </div> */}
 
-      <div className="container py-5">
+      {/* <div className="container py-5">
         <div className="col">
-          <div className="row">
-            <p className="h2 text-dark">Our Support System</p>
-          </div>
-          <div className="row">
-            <p>Our project are supported by startup Odhisha</p>
-          </div>
-        </div>
-        {/* <SupportImages> */}
+          <div className="row"></div> */}
+          {/* <SupportImages> */}
           {/* {suppoetImages.map((list, index
           ) => (
             <div>
               <img key={index.id} src={`${list.toLowerCase()}.svg`} alt={list.alt}/>
             </div>
           ))} */}
-        <div className="container">
-          <div className="row row-cols-4">
-            <div className="col">
-            <img src="/assets/thub.svg" alt="thub-logo" />
+          <div className="container">
+            <div className="row">
+              <div className="col-12">
+                <div>
+                <h1 className="fs-1">Our Support System</h1>
+                </div>
+                <h1 className="fs-1">Our project are supported by startup Odhisha</h1>
+              <div>
             </div>
-            <div className="col">
-            <img src="/assets/nit.svg" alt="nit-logo" />
-
-            </div>
-            <div className="col">
-            <img
-              src="/assets/KIIT_logo.png"
-              style={{ width: "172px" }}
+            <div className="row logo">
+              <div className="col-3">
+                <img src="/assets/thub.svg" alt="thub-logo" />
+              </div>
+              <div className="col-3">
+              <img
+              src="/assets/kiit_tbi.png"
               alt="kiit-logo"
             />
+    
+              </div>
+              <div className="col-3">
+              <img src="/assets/nit.svg" alt="nit-logo" />
+              </div>
+              <div className="col-3">
+              <img src="/assets/ciba.svg" alt="ciba-logo" />
+              </div>
             </div>
-            <div className="col">
-            <img src="/assets/ciba.svg" alt="ciba-logo" />
-            </div>
-            <div className="col">
-            <img src="/assets/book.svg" alt="book-logo" />
-            </div>
-            <div className="col">
-            <img src="/assets/dlabs.svg" alt="dlabs-logo" />
-            </div>
-            <div className="col">
-            <img src="/assets/six.svg" alt="six-logo" />
-            </div>
-            <div className="col">
-            <img src="/assets/vit.svg" alt="vit-logo" />
+
+            <div className="row logo">
+              <div className="col-3">
+              <img src="/assets/book.svg" alt="book-logo" />
+              </div>
+              <div className="col-3">
+              <img src="/assets/dlabs.svg" alt="dlabs-logo" />
+
+              </div>
+              <div className="col-3">
+              <img src="/assets/six.svg" alt="six-logo" />
+              </div>
+              <div className="col-3">
+              <img src="/assets/vit.svg" alt="vit-logo" />
+              </div>
             </div>
           </div>
         </div>
-
-
-            
-                
-        
-
-
-          </div>
-          {/* <div>
+        </div>
+      
+        {/* </div>
+      </div> */}
+      {/* <div>
             <img src="/assets/thub.svg" alt="thub-logo" />
           </div>
           <div>
@@ -303,7 +305,7 @@ function Home() {
           <div>
             <img src="/assets/vit.svg" alt="vit-logo" />
           </div> */}
-        {/* </SupportImages> */}
+      {/* </SupportImages> */}
       {/* </div> */}
 
       {/* <div className="container">

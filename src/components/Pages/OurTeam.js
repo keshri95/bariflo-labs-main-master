@@ -27,41 +27,39 @@ function OurTeam() {
           </div>
       </div>
 
-      <div className="our_team_body">
-        <section>
-          {/* <div className="select_name_div">
-          {
-          OurTeamCardDetails.map((slide, index)=>{
-              var href = "#"+ slide.id;
-                return (
-                <NameTags href={href} name={slide.name} key={index}/>
-                )
-            })
-          }
-          </div> */}
-          {/* <div className="our_team_container"> */}
-          {/* <Grid container spacing={2}>
-            <Grid item xs={12} sm={4}>
-              <OurTeamCard {...OurTeamCard} />
-            </Grid>
-          </Grid> */}
+        <div className="our_team_body">
+          <section>
+            {/* <div className="select_name_div">
             {
-              OurTeamCardDetails.map((slide, index) => {
-              return (
-                <OurTeamCard
-                  image={slide.image}
-                  name={slide.name}
-                  desc={slide.desc}
-                  para={slide.para}
-                  key={index}
-                  id={slide.id}
-                  href={slide.href}
-                  />
-                  );
-                })}
-          {/* </div> */}
-        </section>
-      </div>
+            OurTeamCardDetails.map((slide, index)=>{
+                var href = "#"+ slide.id;
+                  return (
+                  <NameTags href={href} name={slide.name} key={index}/>
+                  )
+              })
+            }
+            </div> */}
+        
+
+            <div className="our_team_container">
+        
+              {
+                OurTeamCardDetails.map((slide, index) => {
+                  return (
+                    <OurTeamCard
+                    image={slide.image}
+                    name={slide.name}
+                    desc={slide.desc}
+                    para={slide.para}
+                    key={index}
+                    id={slide.id}
+                    href={slide.href}
+                    />
+                    );
+                  })}
+            </div>
+          </section>
+        </div> 
     </>
   );
 }
